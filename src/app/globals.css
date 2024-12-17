@@ -7,6 +7,7 @@
 :root {
   color-scheme: dark;
 }
+
 @theme {
   --color-dark-bg: #04000c;
   --color-violet-1: #b58aff;
@@ -14,6 +15,7 @@
   --color-violet-3: #9a74db;
 
   --padding-xpage: 113px;
+
 }
 
 @layer base {

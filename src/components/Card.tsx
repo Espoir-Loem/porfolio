@@ -13,7 +13,7 @@ export type BlogCradType = {
 export const BlogCrad = (props: { data: BlogCradType }) => {
     const { image, alt, headling, description, date } = props.data;
     return (
-        <article className="space-y-3 bg-1/2 border p-4 rounded-[30px]">
+        <article className="space-y-3 bg-1/2 border p-4 rounded-[30px] overflow-hidden">
             <div className="flex gap-4">
                 <figure className="relative overflow-hidden w-[4rem] h-[3rem] aspect-square rounded-[15px]">
                     <Image src={image} alt={alt || ""} fill />
@@ -44,7 +44,7 @@ export type RowCardType = {
 export const RowCard = (props: { data: RowCardType }) => {
     const { image, alt, headling, description, tags } = props.data
     return (
-        <article className="group relative hover:scale-105 duration-300 cursor-pointer transition-all hover:z-20 grid grid-cols-2 gap-5  items-center bg-1/2 border p-3 rounded-[30px]">
+        <article className="group relative hover:scale-105 duration-300 cursor-pointer transition-all hover:z-20 grid grid-cols-2 gap-5  items-center bg-1/2 border p-3 rounded-[30px] overflow-hidden">
             <figure className="relative overflow-hidden size-full rounded-[18px] ">
                 <Image src={image} alt={alt || ""} fill />
                 <div className="z-10 absolute  inset-0 bg-dark-bg/50 transition-all duration-300 group-hover:bg-transparent"></div>
@@ -71,7 +71,7 @@ export const RowCard = (props: { data: RowCardType }) => {
 const Card = ({ type, data }: { type: boolean, data: RowCardType }) => {
     const { image, alt, headling, description, tags } = data
     return (
-        <article className="  group relative hover:scale-105 duration-300 cursor-pointer transition-all hover:z-20 flex flex-col gap-5  items-center bg-1/2 border  p-3 rounded-[30px]">
+        <article className="  group relative hover:scale-105 duration-300 cursor-pointer transition-all hover:z-20 flex flex-col gap-5  items-center bg-1/2 border  p-3 rounded-[30px] overflow-hidden">
             <figure className={`relative overflow-hidden  w-full ${type ? "h-48" : "h-32"}  rounded-[18px]`}>
                 <Image src={image} alt={alt || ""} fill />
 
