@@ -21,7 +21,7 @@ const HeroSection = () => {
                     ))
                 }
             </div>
-            <p className="md:px-20 text-[18px] md:text-[20px] text-center font-light">
+            <p className="px-1.5 md:px-20 text-[18px] md:text-[20px] text-center font-light opacity-75">
                 Chaque projet est une histoire 🌱, et je m’efforce d’en faire une œuvre mémorable 🎨. Je crée des solutions sur-mesure
                 🛠️ qui allient esthétique et efficacité ⚡, avec un œil attentif aux détails ✨. Ensemble, transformons vos idées
                 en expériences inoubliables 💫.
