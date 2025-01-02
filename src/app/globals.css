@@ -20,7 +20,7 @@
 
 @layer base {
   body {
-    @apply bg-dark-bg;
+    @apply bg-dark-bg w-dvw overflow-x-hidden ;
   }
 }
 @layer components {
