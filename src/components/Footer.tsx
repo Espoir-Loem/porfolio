@@ -8,7 +8,7 @@ const Footer = () => {
             <Button>
                 Contacte-moi !
             </Button>
-            <div className="mt-16 md:mt-24 w-full flex justify-between items-center py-10 border-t border-green-100/20">
+            <div className="mt-16  md:mt-24 w-full flex justify-between items-center py-10 border-t border-green-100/20">
                 <div className="hidden md:block">
                     <NetworkIcons/>
                 </div>

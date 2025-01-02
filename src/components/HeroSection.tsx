@@ -12,7 +12,7 @@ const HeroSection = () => {
                     <Image src="/espoir loém 2.jpg" alt="" fill objectFit="cover" className="hover:scale-110 transition-all" />
                 </figure>
             </div>
-            <Badge zoom={.75}>👋🏾 , Salut moi c’est</Badge>
+            <Badge zoom={.75}>👋🏾 , Salut moi c’est </Badge>
             <h1 className="font-semibold text-5xl md:text-6xl">Espoir Loém</h1>
             <div className="flex gap-3 flex-wrap  justify-center px-3">
                 {
