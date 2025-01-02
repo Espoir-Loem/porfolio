@@ -5,7 +5,7 @@ import Button, { NetworkIcons } from "./Button";
 const HeroSection = () => {
     const data: string[] = ["Développeur", "Web", "Mobile", "Designer", "UI", "UX", "DX"];
     return (
-        <section className=" flex flex-col gap-9 items-center px-xpage  pb-20 relative path-line">
+        <section className=" flex flex-col gap-9 items-center sm:px-xpage  pb-20 relative path-line">
 
             <div style={{ zoom: 1.04 }} className="backdrop-blur-lg mb-3 p-5 size-80 rounded-full border bg-1/10">
                 <figure className=" relative size-full overflow-hidden rounded-full  shadow-[0_0_30px]  shadow-violet-1/20">

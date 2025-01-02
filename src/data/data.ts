@@ -43,7 +43,7 @@ export const ProjetsData = [
         
         image: "/projets/2.png",
         alt: "",
-        headling: "Pay",
+        headling: "New",
         description: "Découvrez mes projets récents en freelance et mes projets personnels, où la créativité 💡 rencontre la",
         tags: ["Next.js","Hope","PostgresSQL"]
     },
@@ -89,7 +89,7 @@ export const ExpertiseData = [
     {
         image: "/Nuxtjs.png",
         alt: "",
-        headling: "NuxtJs",
+        headling: "Tonga",
         description: "Découvrez mes projets récents en freelance et mes projets personnels, où la créativité 💡 rencontre la",
         tags: ["Front-end","Back-end"]
     },
@@ -103,7 +103,7 @@ export const ExpertiseData = [
     {
         image: "/hope.png",
         alt: "",
-        headling: "Hope",
+        headling: "Nexy",
         description: "Découvrez mes projets récents en freelance et mes projets personnels, où la créativité 💡 rencontre la",
         tags: ["Back-end"]
     }, 
