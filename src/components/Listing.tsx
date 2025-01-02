@@ -12,12 +12,12 @@ const Listing = ({ type , data }: ListingType) => {
 
     
     return (
-        <section className="py-32  flex flex-col items-center gap-28">
+        <section className="px-2 lg:px-xpage py-32  flex flex-col items-center gap-28">
             <Headling />
             {
                 type == "blog" &&
                 <>
-                    <div className="grid grid-cols-2 gap-9">
+                    <div className="grid md:grid-cols-2 gap-9">
 
                         {
                             data.map((blog,index)=>(

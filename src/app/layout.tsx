@@ -28,7 +28,7 @@ export default function RootLayout({
        <link rel="shortcut icon" href="/espoir loém .png" type="image/x-icon" />
        <link rel="apple-touch-icon" href="/espoir loém .png" />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased   px-5  lg:px-xpage `}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased   `}
       >
         {children}
       </body>

@@ -23,7 +23,7 @@ export const BlogCrad = (props: { data: BlogCradType }) => {
                 </h2>
             </div>
 
-            <p className="font-light text-sm">
+            <p className="opacity-75 text-sm">
                 {description}
             </p>
 
@@ -51,7 +51,7 @@ export const RowCard = (props: { data: RowCardType }) => {
             </figure>
             <div className="space-y-3">
                 <h2 className="text-2xl" >{headling}</h2>
-                <p className="font-light">
+                <p className="opacity-75">
                     {description}
                 </p>
                 <div className="space-x-3">
@@ -79,7 +79,7 @@ const Card = ({ type, data }: { type: boolean, data: RowCardType }) => {
             </figure>
             <div className="space-y-3 px-1 pb-1">
                 <h2 className="text-2xl" >{headling}</h2>
-                <p className="font-light">
+                <p className="opacity-75">
                     {description}
                 </p>
                 <div className="space-x-3">
