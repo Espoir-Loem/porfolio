@@ -89,7 +89,7 @@ export const ExpertiseData = [
     {
         image: "/Nuxtjs.png",
         alt: "",
-        headling: "Tonga",
+        headling: "Tonga ",
         description: "Découvrez mes projets récents en freelance et mes projets personnels, où la créativité 💡 rencontre la",
         tags: ["Front-end","Back-end"]
     },
