@@ -4,7 +4,7 @@ import { Icon } from "./Icon";
 
 const Header = () => {
     return (
-        <header className="flex justify-between lg:px-xpage py-7 sticky top-0 z-30">
+        <header className="flex justify-between  py-7 sticky top-0 z-30">
             <Badge zoom={.8}>Qui suis-je 👇🏾 ?</Badge>
             <IconButton>
                 <Icon name="menu"/>

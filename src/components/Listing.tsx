@@ -12,7 +12,7 @@ const Listing = ({ type , data }: ListingType) => {
 
     
     return (
-        <section className="px-xpage py-32 flex flex-col items-center gap-28">
+        <section className="py-32 flex flex-col items-center gap-28">
             <Headling />
             {
                 type == "blog" &&
