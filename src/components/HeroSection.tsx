@@ -17,7 +17,7 @@ const HeroSection = () => {
             <figure 
                 style={{
                     backgroundImage: `linear-gradient(180deg, rgba(4, 1, 12, 0) 54.58%, rgba(4, 1, 12, 0.82) 78.95%, #04010C 100%), url('/espoir loém 2.jpg');`,
-                    backgroundSize:"130%"
+                    backgroundSize:"113%"
                     
                 }}
                 className="bg-center bg-cover md:hidden  -z-1 h-[97vh] w-full "
