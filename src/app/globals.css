@@ -22,6 +22,7 @@
   body {
     @apply bg-dark-bg w-dvw overflow-x-hidden ;
   }
+  
 }
 @layer components {
   .bg-grand-1 {
@@ -44,5 +45,13 @@
     background-size: 100%,50%;
     @apply size-full content-[""] absolute -top-19 -z-1;
   }
+  .tab{
+    --zoom: 90%;
+    @media (width >= 48rem /* 768px */) {
+      --zoom:100%;
+    }
+    zoom: var(--zoom);
+  }
 }
+
 
