@@ -46,19 +46,19 @@ const Listing = ({ type , data }: ListingType) => {
                 type !== "blog" && type !== "experience" &&
                 <div className="space-y-9">
                     <div className="flex  justify-center md:justify-between ">
-                        <nav className="tab flex items-center font-light gap-1.5 border bg-1/2 rounded-[17px] p-[5px] ">
-                            <Badge active={true}>Web 🕸️</Badge>
+                        <nav className=" flex items-center font-light gap-1.5 border bg-1/2 rounded-[17px] p-[5px] ">
+                            <Badge active={true}>Web <span className=" hidden md:block">🕸️</span></Badge>
                             <hr className="h-[7px] bg-violet-1 w-[1.5px] rounded-4xl border-0 opacity-70" />
                             <button className="px-[12px] py-[6px]">
-                                Mobile 📱
+                                Mobile <span className=" hidden md:block">📱</span>
                             </button>
                             <hr className="h-[7px] bg-violet-1 w-[1.5px] rounded-4xl border-0 opacity-70" />
                             <button className="px-[12px] py-[6px]">
-                                Design 🎨
+                                Design <span className=" hidden md:block">🎨</span>
                             </button>
                             <hr className="h-[7px] bg-violet-1w-[1.5px] rounded-4xl border-0 opacity-70" />
                             <button className="px-[12px] py-[6px]">
-                                Autre  🦦
+                                Autre  <span className=" hidden md:block">🦦</span>
                             </button>
                         </nav>
                         <div className="hidden md:block">
