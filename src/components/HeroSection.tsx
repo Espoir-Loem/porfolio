@@ -19,7 +19,7 @@ const HeroSection = () => {
                     backgroundImage: `linear-gradient(180deg, rgba(4, 1, 12, 0) 54.58%, rgba(4, 1, 12, 0.82) 78.95%, #04010C 100%), url('/espoir loém 2.jpg');`
                     
                 }}
-                className=" bg-center bg-cover md:hidden  -z-1 h-[102dvh] w-full scale-105"
+                className=" bg-center bg-cover md:hidden  -z-1 h-[106vh] w-full scale-105"
             >
             </figure>
             <div className="-mt-80 md:mt-0 w-fit flex flex-col gap-9 items-center ">
@@ -32,7 +32,7 @@ const HeroSection = () => {
                         ))
                     }
                 </div>
-                <p className="px-1.5 md:px-20 text-[18px] md:text-[20px] text-center  opacity-75">
+                <p className="px-1.5 md:px-48 text-[18px] md:text-[20px] text-center  opacity-75">
                     Chaque projet est une histoire 🌱, et je m’efforce d’en faire une œuvre mémorable 🎨. Je crée des solutions sur-mesure
                     🛠️ qui allient esthétique et efficacité ⚡, avec un œil attentif aux détails ✨. Ensemble, transformons vos idées
                     en expériences inoubliables 💫.

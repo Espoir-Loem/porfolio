@@ -44,10 +44,10 @@ export type RowCardType = {
 export const RowCard = (props: { data: RowCardType }) => {
     const { image, alt, headling, description, tags } = props.data
     return (
-        <article className="group relative hover:scale-105 duration-300 cursor-pointer transition-all hover:z-20 grid grid-cols-2 gap-5  items-center bg-1/2 border p-3 rounded-[30px] overflow-hidden">
+        <article className="group relative md:hover:scale-105 duration-300 cursor-pointer transition-all hover:z-20 grid grid-cols-2 gap-5  items-center bg-1/2 border p-3 rounded-[30px] overflow-hidden">
             <figure className="relative overflow-hidden size-full rounded-[18px] ">
                 <Image src={image} alt={alt || ""} fill />
-                <div className="z-10 absolute  inset-0 bg-dark-bg/50 transition-all duration-300 group-hover:bg-transparent"></div>
+                <div className="z-10 absolute  inset-0  md:bg-dark-bg/50 transition-all duration-300 group-hover:bg-transparent"></div>
             </figure>
             <div className="space-y-3">
                 <h2 className="text-2xl" >{headling}</h2>
@@ -71,11 +71,11 @@ export const RowCard = (props: { data: RowCardType }) => {
 const Card = ({ type, data }: { type: boolean, data: RowCardType }) => {
     const { image, alt, headling, description, tags } = data
     return (
-        <article className="  group relative hover:scale-105 duration-300 cursor-pointer transition-all hover:z-20 flex flex-col gap-5  items-center bg-1/2 border  p-3 rounded-[30px] overflow-hidden">
+        <article className="  group relative md:hover:scale-105 duration-300 cursor-pointer transition-all hover:z-20 flex flex-col gap-5  items-center bg-1/2 border  p-3 rounded-[30px] overflow-hidden">
             <figure className={`relative overflow-hidden  w-full ${type ? "h-48" : "h-32"}  rounded-[18px]`}>
                 <Image src={image} alt={alt || ""} fill />
 
-                <div className="z-10 absolute inset-0 bg-dark-bg/50 transition-all duration-300 group-hover:bg-transparent"></div>
+                <div className="z-10 absolute inset-0 md:bg-dark-bg/50 transition-all duration-300 group-hover:bg-transparent"></div>
             </figure>
             <div className="space-y-3 px-1 pb-1">
                 <h2 className="text-2xl" >{headling}</h2>
