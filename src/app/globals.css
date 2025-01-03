@@ -32,7 +32,7 @@
     @apply bg-gradient-to-br from-violet-1/35 to-violet-2/35 border-violet-3/40;
   }
   .bg-1\/2 {
-    @apply bg-gradient-to-br from-violet-1/13 to-violet-2/13 border-violet-3/20 md:from-violet-1/2 md:to-violet-2/2 md:border-violet-3/15;
+    @apply bg-gradient-to-br from-violet-1/10 to-violet-2/10 border-violet-3/13 md:from-violet-1/2 md:to-violet-2/2 md:border-violet-3/15;
   }
   .bg-1\/10 {
     @apply bg-gradient-to-br from-violet-1/10 to-violet-2/10 border-violet-3/20;
