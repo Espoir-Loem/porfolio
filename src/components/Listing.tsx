@@ -33,7 +33,7 @@ const Listing = ({ type , data }: ListingType) => {
 
             {
                 type == "experience" &&
-                <div className="grid grid-cols-2 gap-9">
+                <div className="grid md:grid-cols-2 gap-9">
                     {
                             data.map((item, index)=>(
                                 <RowCard data={item as RowCardType} key={index} />
@@ -65,7 +65,7 @@ const Listing = ({ type , data }: ListingType) => {
                             <Button>Voir plus  👉🏾</Button>
                         </div>
                     </div>
-                    <div className="grid grid-cols-3 gap-9  ">
+                    <div className="md:grid grid-cols-3 gap-9  ">
                         {
                             data.map((item, index)=>(
                                 index<3 ? <Card key={index} data={item as RowCardType} type={type == "projet" ? true : false} /> :null
@@ -73,9 +73,12 @@ const Listing = ({ type , data }: ListingType) => {
                         }
 
                     </div>
-                    <div className="grid grid-cols-2 gap-9" >
+                    <div className="hidden md:grid grid-cols-2 gap-9" >
                         <RowCard data={data[3] as RowCardType} />
                         <RowCard data={data[4] as RowCardType} />
+                    </div>
+                    <div className="md:hidden flex justify-center">
+                            <Button>Voir plus  👉🏾</Button>
                     </div>
                 </div>
 

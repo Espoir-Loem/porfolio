@@ -43,8 +43,8 @@ const Button = ({children,zoom}: ButtonType) => {
     return (
         <button style={{zoom}} className=" group backdrop-blur-lg hover:bg-violet-2/20 hover:shadow-[0_0_30px]  hover:shadow-violet-2/40 transition-all cursor-pointer flex items-center font-light gap-1.5 border-[0.5px]  bg-1/2 rounded-[17px] p-[5px] ">
             <Badge active={true}>{children}</Badge>
-            <hr className="²²²h-[7px] bg-violet-1 w-[1.5px] rounded-4xl border-0 opacity-70" />
-            <hr className="  h-[7px] bg-violet-1 w-[1.5px] rounded-4xl border-0 opacity-70" />
+            <hr className="h-[7px] bg-violet-1 w-[1.5px] rounded-4xl border-0 opacity-70" />
+            <hr className="h-[7px] bg-violet-1 w-[1.5px] rounded-4xl border-0 opacity-70" />
         </button>
     )
 }
