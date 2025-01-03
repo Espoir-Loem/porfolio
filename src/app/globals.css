@@ -37,7 +37,14 @@
   .bg-1\/10 {
     @apply bg-gradient-to-br from-violet-1/10 to-violet-2/10 border-violet-3/20;
   }
-
+  .card{
+    background-color: hwb(273 24% 72% / 0.11) ;
+    border-color: hwb(276 24% 72% / 0.295);
+    &:hover{
+      background-color: hwb(276 24% 72% / 0.388);
+      border-color: hwb(276 24% 72% / 0.447);
+    }
+  }
 
   .path-line::before{
     

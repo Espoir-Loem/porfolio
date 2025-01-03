@@ -13,7 +13,7 @@ export type BlogCradType = {
 export const BlogCrad = (props: { data: BlogCradType }) => {
     const { image, alt, headling, description, date } = props.data;
     return (
-        <article className="space-y-3 bg-1/2 border p-4 rounded-[30px] overflow-hidden">
+        <article className="space-y-3 card border p-4 rounded-[30px] overflow-hidden">
             <div className="flex gap-4">
                 <figure className="relative overflow-hidden w-[4rem] h-[3rem] aspect-square rounded-[15px]">
                     <Image src={image} alt={alt || ""} fill />
@@ -44,7 +44,7 @@ export type RowCardType = {
 export const RowCard = (props: { data: RowCardType }) => {
     const { image, alt, headling, description, tags } = props.data
     return (
-        <article className="group relative md:hover:scale-105 duration-300 cursor-pointer transition-all hover:z-20 grid grid-cols-2 gap-5  items-center bg-1/2 border p-3 rounded-[30px] overflow-hidden">
+        <article className="group relative md:hover:scale-105 duration-300 cursor-pointer transition-all hover:z-20 grid grid-cols-2 gap-5  items-center card border p-3 rounded-[30px] overflow-hidden">
             <figure className="relative overflow-hidden size-full rounded-[18px] ">
                 <Image src={image} alt={alt || ""} fill />
                 <div className="z-10 absolute  inset-0  md:bg-dark-bg/50 transition-all duration-300 group-hover:bg-transparent"></div>
@@ -54,7 +54,7 @@ export const RowCard = (props: { data: RowCardType }) => {
                 <p className="opacity-75">
                     {description}
                 </p>
-                <div className="space-x-3">
+                <div className="space-x-3" style={{zoom:.90}}>
                     {
                         tags.map((tag) => ((
                             <Badge zoom={.8} key={tag}>{tag}</Badge>
@@ -71,7 +71,7 @@ export const RowCard = (props: { data: RowCardType }) => {
 const Card = ({ type, data }: { type: boolean, data: RowCardType }) => {
     const { image, alt, headling, description, tags } = data
     return (
-        <article className="  group relative md:hover:scale-105 duration-300 cursor-pointer transition-all hover:z-20 flex flex-col gap-5  items-center bg-1/2 border  p-3 rounded-[30px] overflow-hidden">
+        <article className="  group relative md:hover:scale-105 duration-300 cursor-pointer transition-all hover:z-20 flex flex-col gap-5  items-center  card border  p-3 rounded-[30px] overflow-hidden">
             <figure className={`relative overflow-hidden  w-full ${type ? "h-48" : "h-32"}  rounded-[18px]`}>
                 <Image src={image} alt={alt || ""} fill />
 
@@ -82,7 +82,7 @@ const Card = ({ type, data }: { type: boolean, data: RowCardType }) => {
                 <p className="opacity-75">
                     {description}
                 </p>
-                <div className="space-x-3">
+                <div className="space-x-3" style={{zoom:.90}}>
                     {
                         tags.map((tag) => ((
                             <Badge zoom={.8} key={tag}>{tag}</Badge>

@@ -12,7 +12,7 @@ const Listing = ({ type , data }: ListingType) => {
 
     
     return (
-        <section className="px-2 lg:px-xpage py-32  flex flex-col items-center gap-28">
+        <section className="px-6 lg:px-xpage py-32  flex flex-col items-center gap-28">
             <Headling />
             {
                 type == "blog" &&
@@ -33,13 +33,22 @@ const Listing = ({ type , data }: ListingType) => {
 
             {
                 type == "experience" &&
-                <div className="grid md:grid-cols-2 gap-9">
+                <>
+                    <div className=" hidden md:grid grid-cols-2 gap-9">
                     {
                             data.map((item, index)=>(
                                 <RowCard data={item as RowCardType} key={index} />
                             ))
                     }
                 </div>
+                <div className="space-y-9 md:hidden">
+                    {
+                            data.map((item, index)=>(
+                                <Card data={item as RowCardType} key={index} type={true} />
+                            ))
+                    }
+                </div>
+                </>
             }
 
             {
@@ -48,16 +57,17 @@ const Listing = ({ type , data }: ListingType) => {
                     <div className="flex  justify-center md:justify-between ">
                         <nav className=" flex items-center font-light gap-1.5 border bg-1/2 rounded-[17px] p-[5px] ">
                             <Badge active={true}>Web <span className="">🕸️</span></Badge>
-                            <hr className="h-[7px] bg-violet-1 w-[1.5px] rounded-4xl border-0 opacity-70" />
-                            <button className="px-[12px] py-[6px]">
+                            <hr className="h-[10px] bg-violet-1 w-[1.5px] rounded-4xl border-0 opacity-70" />
+                            <button className="px-[12px] py-[6px] flex gap-1">
                                 Mobile <span className=" hidden md:block">📱</span>
                             </button>
-                            <hr className="h-[7px] bg-violet-1 w-[1.5px] rounded-4xl border-0 opacity-70" />
-                            <button className="px-[12px] py-[6px]">
+                            <hr className="h-[10px] bg-violet-1 w-[1.5px] rounded-4xl border-0 opacity-70" />
+                            <button className="px-[12px] py-[6px] flex gap-1">
                                 Design <span className=" hidden md:block">🎨</span>
                             </button>
-                            <hr className="h-[7px] bg-violet-1w-[1.5px] rounded-4xl border-0 opacity-70" />
-                            <button className="px-[12px] py-[6px]">
+                            <hr className="h-[10px] bg-violet-1 w-[1.5px] rounded-4xl border-0 opacity-70" />
+
+                            <button className="px-[12px] py-[6px] flex gap-1">
                                 Autre  <span className=" hidden md:block">🦦</span>
                             </button>
                         </nav>
@@ -77,7 +87,7 @@ const Listing = ({ type , data }: ListingType) => {
                         <RowCard data={data[3] as RowCardType} />
                         <RowCard data={data[4] as RowCardType} />
                     </div>
-                    <div className="md:hidden flex justify-center">
+                    <div className="md:hidden flex justify-center mt-25">
                             <Button>Voir plus  👉🏾</Button>
                     </div>
                 </div>

@@ -3,7 +3,7 @@ import Headling from "./Headling";
 
 const Footer = () => {
     return (
-        <footer className="px-2 lg:px-xpage flex flex-col items-center gap-14 mt-20">
+        <footer className="px-6 lg:px-xpage flex flex-col items-center gap-14 mt-20">
             <Headling/>
             <Button>
                 Contacte-moi !
