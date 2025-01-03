@@ -46,7 +46,7 @@
     @apply size-full content-[""] absolute -top-19 -z-1;
   }
   .tab{
-    --zoom: 80%;
+    --zoom: calc(100% - 16px);
     @media (width >= 48rem /* 768px */) {
       --zoom:100%;
     }
