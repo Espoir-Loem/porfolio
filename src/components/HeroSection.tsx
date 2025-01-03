@@ -20,7 +20,7 @@ const HeroSection = () => {
                     backgroundSize:"130%"
                     
                 }}
-                className="bg-center bg-cover md:hidden  -z-1 h-[100vh] w-full "
+                className="bg-center bg-cover md:hidden  -z-1 h-[97vh] w-full "
             >
             </figure>
             <div className="-mt-80 md:mt-0 w-fit flex flex-col gap-9 items-center ">
