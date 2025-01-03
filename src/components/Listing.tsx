@@ -65,7 +65,7 @@ const Listing = ({ type , data }: ListingType) => {
                             <Button>Voir plus  👉🏾</Button>
                         </div>
                     </div>
-                    <div className="md:grid grid-cols-3 gap-9  ">
+                    <div className="grid md:grid-cols-3 gap-9  ">
                         {
                             data.map((item, index)=>(
                                 index<3 ? <Card key={index} data={item as RowCardType} type={type == "projet" ? true : false} /> :null
