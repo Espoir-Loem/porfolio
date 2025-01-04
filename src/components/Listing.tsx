@@ -55,7 +55,7 @@ const Listing = ({ type , data }: ListingType) => {
                 type !== "blog" && type !== "experience" &&
                 <div className="space-y-9">
                     <div className="flex  justify-center md:justify-between ">
-                        <nav className=" flex items-center font-light gap-1.5 border bg-1/2 rounded-[17px] p-[5px] ">
+                        <nav className="tab flex items-center font-light gap-1.5 border bg-1/2 rounded-[17px] p-[5px] ">
                             <Badge active={true}>Web <span className="">🕸️</span></Badge>
                             <hr className="h-[10px] bg-violet-1 w-[1.5px] rounded-4xl border-0 opacity-70" />
                             <button className="px-[12px] py-[6px] flex gap-1">
