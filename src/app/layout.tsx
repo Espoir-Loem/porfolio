@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <meta name="theme-color" content="#42325e"/>
        <link rel="shortcut icon" href="/espoir loém .png" type="image/x-icon" />
-       <link rel="apple-touch-icon" href="/espoir loém .png" />
+       <link rel="apple-touch-icon" href="/espoir loém.jpg" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased  overflow-x-hidden   `}
       >
