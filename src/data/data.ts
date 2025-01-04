@@ -35,7 +35,7 @@ export const ProjetsData = [
     {
         image: "/projets/1.png",
         alt: "",
-        headling: "AI Ally",
+        headling: "Sina",
         description: "Découvrez mes projets récents en freelance et mes projets personnels, où la créativité 💡 rencontre la",
         tags: ["Astro","Nestjs","PostgresSQL"]
     },
@@ -50,21 +50,21 @@ export const ProjetsData = [
     {
         image: "/projets/3.png",
         alt: "",
-        headling: "Virtual Dashboard",
+        headling: "Nexy docs",
         description: "Découvrez mes projets récents en freelance et mes projets personnels, où la créativité 💡 rencontre la",
         tags: ["Nuxtjs","PostgresSQL"]
     },
     {
         image: "/projets/4.png",
         alt: "",
-        headling: "PayFast",
+        headling: "NewUi docs",
         description: "Découvrez mes projets récents en freelance et mes projets personnels, où la créativité 💡 rencontre la",
         tags: ["Astro","Hope","PostgresSQL"]
     },
     {
         image: "/projets/5.png",
         alt: "",
-        headling: "Cortex",
+        headling: "Tonga docs ",
         description: "Découvrez mes projets récents en freelance et mes projets personnels, où la créativité 💡 rencontre la",
         tags: ["Next.js","PostgresSQL"]
     },

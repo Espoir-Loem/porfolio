@@ -1,3 +1,4 @@
+import { NetworkIcons } from "@/components/Button";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
@@ -10,6 +11,9 @@ export default function Home() {
     <>
      <Header/>
      <HeroSection/>
+     <div  style={{zoom:1.2}} className="sticky top-[76vh]  z-50  left-0 right-0 grid place-content-center ">
+       <NetworkIcons />
+     </div>
      {/* projet */}
      <Listing type="projet" data={ProjetsData}/>
      {/* Expertise */}
@@ -19,6 +23,7 @@ export default function Home() {
      {/* blog */}
      <Listing type="blog" data={blogData}/>
      <Footer/>
+     
     </>
   );
 }
