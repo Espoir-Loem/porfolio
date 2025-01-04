@@ -33,7 +33,7 @@ const HeroSection = () => {
                         ))
                     }
                 </div>
-                <p className="px-4  md:px-48 text-[18px] md:text-[20px] text-center  opacity-75">
+                <p className="px-2  md:px-48 text-[18px] md:text-[20px] text-center  opacity-75">
                     Chaque projet est une histoire 🌱, et je m’efforce d’en faire une œuvre mémorable 🎨. Je crée des solutions sur-mesure
                     🛠️ qui allient esthétique et efficacité ⚡, avec un œil attentif aux détails ✨. Ensemble, transformons vos idées
                     en expériences inoubliables 💫.
