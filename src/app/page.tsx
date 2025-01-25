@@ -11,7 +11,7 @@ export default function Home() {
     <>
      <Header/>
      <HeroSection/>
-     <div  style={{zoom:1.2}} className="sticky top-[75vh]  z-50  left-0 right-0 grid place-content-center ">
+     <div  style={{zoom:1.2}} className="md:hidden sticky top-[75vh]  z-50  left-0 right-0 grid place-content-center ">
        <NetworkIcons />
      </div>
      {/* projet */}

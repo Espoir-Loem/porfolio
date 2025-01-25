@@ -71,13 +71,7 @@ export const ProjetsData = [
 ];
 
 export const ExpertiseData = [
-    {
-        image: "/astro.png",
-        alt: "",
-        headling: "AstroJs",
-        description: "Découvrez mes projets récents en freelance et mes projets personnels, où la créativité 💡 rencontre la",
-        tags: ["Front-end"]
-    },
+    
     {
         
         image: "/Nextjs.png",
@@ -87,9 +81,16 @@ export const ExpertiseData = [
         tags: ["Front-end","Back-end"]
     },
     {
-        image: "/Nuxtjs.png",
+        image: "/astro.png",
         alt: "",
-        headling: "Tonga ",
+        headling: "AstroJs",
+        description: "Découvrez mes projets récents en freelance et mes projets personnels, où la créativité 💡 rencontre la",
+        tags: ["Front-end"]
+    },
+    {
+        image: "/nexy.png",
+        alt: "",
+        headling: "Nexy",
         description: "Découvrez mes projets récents en freelance et mes projets personnels, où la créativité 💡 rencontre la",
         tags: ["Front-end","Back-end"]
     },
@@ -101,9 +102,9 @@ export const ExpertiseData = [
         tags: ["Back-end"]
     },
     {
-        image: "/hope.png",
+        image: "/fastapi.png",
         alt: "",
-        headling: "Nexy",
+        headling: "FastAPI",
         description: "Découvrez mes projets récents en freelance et mes projets personnels, où la créativité 💡 rencontre la",
         tags: ["Back-end"]
     }, 
